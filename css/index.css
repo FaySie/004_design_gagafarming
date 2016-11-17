@@ -1,0 +1,56 @@
+/**************************************************
+*
+*--- main color -----------------
+*
+*    orange       : #FBAF25
+*    green        : #BDBD3A
+*
+*
+*--- other main -----------------
+*
+*    red          : #E77876
+*    brown        : #B8A880
+*    lightblue    : #B0DEDB
+*
+*    white        : #fff
+*    black        : #000
+*
+**************************************************/
+
+/*
+GENERAL
+*/
+
+
+
+/*-----------------------------------------------
+*    header
+-----------------------------------------------*/
+
+#header {
+    height: 10vh;
+    background-color: pink;
+}
+
+.logo {
+    height: 7vh;
+}
+
+#nav {
+    position: relative;
+    background-color: #bbb;
+    height: 10vh;
+}
+
+.nav {
+    background-color: lightblue;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%,-50%);
+}
+
+.nav li {
+    display: inline-block;
+    padding-left: 15px;
+}
